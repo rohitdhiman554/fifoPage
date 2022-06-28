@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FIFO</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <link rel="stylesheet" href="main.css" />
+  <body>
+    <div class="main">
+      <div class="leftSide" style="background-color: rgb(31, 31, 58)">
+        <div class="header">
+          <p style="color: rgb(106, 106, 184)">FIFO</p>
+        </div>
+        <p style="margin: 10px 0 10px 5px; font-size: 12px">MAIN</p>
+        <div class="main-content">
+          <table>
+            <tr style="height: 40px">
+              <td style="width: 50px"><i class="fa fa-home insideFont"></i></td>
+              <td style="width: 150px">
+                <p style="margin-left: 5px">Dashboard</p>
+              </td>
+              <td style="width: 50px">
+                <p
+                  style="
+                    background-color: rgb(106, 106, 185);
+                    border-radius: 30px;
+                    text-align: center;
+                    width: 20px;
+                    margin-left: 15px;
+                  "
+                >
+                  2
+                </p>
+              </td>
+            </tr>
+
+            <tr style="height: 40px">
+              <td style="width: 50px">
+                <i class="fa fa-calendar insideFont"></i>
+              </td>
+              <td style="width: 50px">
+                <p style="margin-left: 5px">Calendar</p>
+              </td>
+            </tr>
+
+            <tr style="height: 40px">
+              <td style="width: 50px">
+                <i class="fa fa-envelope insideFont"></i>
+              </td>
+              <td style="width: 150px">
+                <p style="margin-left: 5px">Email</p>
+              </td>
+              <td style="width: 50px">
+                <i class="insideFont">
+                  <select class="selectClass"></select>
+                </i>
+              </td>
+            </tr>
+          </table>
+
+          <p style="margin: 10px 0 10px 5px; font-size: 12px">COMPONENTS</p>
+
+          <table>
+            <tr style="height: 40px">
+              <td style="width: 50px"><i class="fa fa-cube insideFont"></i></td>
+              <td style="width: 150px">
+                <p style="margin-left: 5px">UI Elements</p>
+              </td>
+              <td style="width: 50px">
+                <i class="insideFont">
+                  <select class="selectClass"></select>
+                </i>
+              </td>
+            </tr>
+
+            <tr style="height: 40px">
+              <td style="width: 50px">
+                <i class="fa fa-wpforms insideFont"></i>
+              </td>
+              <td style="width: 50px">
+                <p style="margin-left: 5px">Forms</p>
+              </td>
+              <td style="width: 50px">
+                <p
+                  style="
+                    background-color: rgb(11, 148, 148);
+                    border-radius: 30px;
+                    text-align: center;
+                    width: 20px;
+                    margin-left: 15px;
+                  "
+                >
+                  6
+                </p>
+              </td>
+            </tr>
+
+            <tr style="height: 40px">
+              <td style="width: 50px">
+                <i class="fa fa-pie-chart insideFont"></i>
+              </td>
+              <td style="width: 150px">
+                <p style="margin-left: 5px">Charts</p>
+              </td>
+              <td style="width: 50px">
+                <i class="insideFont">
+                  <select class="selectClass"></select>
+                </i>
+              </td>
+            </tr>
+
+            <tr style="height: 40px">
+              <td style="width: 50px">
+                <i class="fa fa-table insideFont"></i>
+              </td>
+              <td style="width: 50px">
+                <p style="margin-left: 5px">Tables</p>
+              </td>
+              <td style="width: 50px">
+                <i class="insideFont">
+                  <select class="selectClass"></select>
+                </i>
+              </td>
+            </tr>
+
+            <tr style="height: 40px">
+              <td style="width: 50px">
+                <i class="fa fa-smile-o insideFont"></i>
+              </td>
+              <td style="width: 50px">
+                <p style="margin-left: 5px">Icon</p>
+              </td>
+              <td style="width: 50px">
+                <i class="insideFont">
+                  <select class="selectClass"></select>
+                </i>
+              </td>
+            </tr>
+
+            <tr style="height: 40px">
+              <td style="width: 50px">
+                <i class="fa fa-map-pin insideFont"></i>
+              </td>
+              <td style="width: 50px">
+                <p style="margin-left: 5px">Maps</p>
+              </td>
+              <td style="width: 50px">
+                <p
+                  style="
+                    background-color: red;
+                    border-radius: 30px;
+                    text-align: center;
+                    width: 20px;
+                    margin-left: 15px;
+                  "
+                >
+                  2
+                </p>
+              </td>
+            </tr>
+
+            <tr style="height: 40px">
+              <td style="width: 50px">
+                <i class="fa fa-wpforms insideFont"></i>
+              </td>
+              <td style="width: 50px">
+                <p style="margin-left: 5px">Layouts</p>
+              </td>
+              <td style="width: 50px">
+                <i class="insideFont">
+                  <select class="selectClass"></select>
+                </i>
+              </td>
+            </tr>
+
+            <tr style="height: 40px">
+              <td style="width: 50px">
+                <i class="fa fa-wpforms insideFont"></i>
+              </td>
+              <td style="width: 50px">
+                <p style="margin-left: 5px">Authencation</p>
+              </td>
+              <td style="width: 50px">
+                <i class="insideFont">
+                  <select class="selectClass"></select>
+                </i>
+              </td>
+            </tr>
+
+            <tr style="height: 40px">
+              <td style="width: 50px">
+                <i class="fa fa-wpforms insideFont"></i>
+              </td>
+              <td style="width: 50px">
+                <p style="margin-left: 5px">Extra Pages</p>
+              </td>
+              <td style="width: 50px">
+                <i class="insideFont">
+                  <select class="selectClass"></select>
+                </i>
+              </td>
+            </tr>
+
+            <tr style="height: 40px">
+              <td style="width: 50px">
+                <i class="fa fa-wpforms insideFont"></i>
+              </td>
+              <td style="width: 50px">
+                <p style="margin-left: 5px">Email Templates</p>
+              </td>
+              <td style="width: 50px">
+                <i class="insideFont">
+                  <select class="selectClass"></select>
+                </i>
+              </td>
+            </tr>
+
+            <tr style="height: 40px">
+              <td style="width: 50px">
+                <i class="fa fa-ellipsis-h insideFont"></i>
+              </td>
+              <td style="width: 50px">
+                <p style="margin-left: 5px">Multi Level</p>
+              </td>
+              <td style="width: 50px">
+                <i class="insideFont">
+                  <select class="selectClass"></select>
+                </i>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <div class="rightSide" style="background-color: rgb(31, 31, 58)">
+        <div class="nav" style="background-color: rgb(35, 35, 75)">
+          <div class="hamburger">
+            <i
+              class="fa fa-bars"
+              style="font-size: 25px; color: rgba(255, 255, 255, 0.749)"
+            ></i>
+            <span>
+              <button
+                style="
+                  background-color: transparent;
+                  padding: 10px;
+                  border: 2px solid rgba(255, 255, 255, 0.749);
+                  border-radius: 5px;
+                "
+              >
+                <span
+                  style="color: rgba(255, 255, 255, 0.749); font-weight: 600"
+                >
+                  Create<select class="selectClass"></select
+                ></span>
+              </button>
+            </span>
+          </div>
+          <div class="navRight">
+            <div class="searchBar">
+              <input class="input-field" type="text" placeholder="Search..." />
+              <i
+                class="fa fa-search"
+                style="color: rgba(255, 255, 255, 0.749)"
+              ></i>
+            </div>
+            <img src="flag.jpg" width="25px" height="15px" />
+            <p style="margin-left: 15px">English</p>
+            <select class="selectClass"></select>
+            <i style="margin-left: 25px" class="fa fa-expand insideFont"></i>
+            <i style="margin-left: 35px" class="fa fa-bell insideFont"></i>
+            <i
+              style="margin-left: 40px; font-size: 20px"
+              class="fa fa-user-circle-o insideFont"
+            ></i>
+            <i
+              style="margin-left: 25px; font-size: 20px"
+              class="fa fa-gear insideFont"
+            ></i>
+          </div>
+        </div>
+
+        <div class="cards">
+          <div class="card1" style="background-color: rgb(111, 111, 235)">
+            <div class="cardMain">
+              <div class="cardImage">
+                <i class="fa fa-suitcase" style="font-size: 40px;padding: 5px;"></i>
+              </div>
+              <div class="orderMain">
+                <div class="orders">ORDERS</div>
+                <div class="orderNumber">
+                  1,685
+                  <span
+                    ><i
+                      class="fa fa-arrow-up"
+                      style="color: green; margin-left: 5px"
+                    ></i
+                  ></span>
+                </div>
+              </div>
+              <div class="discount">+ 12%</div>
+            </div>
+            <div class="foot">
+              <p style="color: whitesmoke; width: 50%; margin-left: 5px">
+                Since last month
+              </p>
+              <i
+                class="fa fa-arrow-right"
+                style="margin-right: 15px; color: whitesmoke"
+              ></i>
+            </div>
+          </div>
+          <div class="card2" style="background-color: rgb(100, 100, 234)">
+            <div class="cardMain">
+              <div class="cardImage">
+                <i class="fa fa-suitcase" style="font-size: 40px;padding: 5px;"></i>
+              </div>
+              <div class="orderMain">
+                <div class="orders">REVENUE</div>
+                <div class="orderNumber">
+                  52,368
+                  <span
+                    ><i
+                      class="fa fa-arrow-down"
+                      style="color: red; margin-left: 5px"
+                    ></i
+                  ></span>
+                </div>
+              </div>
+              <div class="discount">- 28%</div>
+            </div>
+            <div class="foot">
+              <p style="color: whitesmoke; width: 50%; margin-left: 5px">
+                Since last month
+              </p>
+              <i
+                class="fa fa-arrow-right"
+                style="margin-right: 15px; color: whitesmoke"
+              ></i>
+            </div>
+          </div>
+
+          <div class="card3" style="background-color: rgb(100, 100, 234)">
+            <div class="cardMain">
+              <div class="cardImage">
+                <i class="fa fa-suitcase" style="font-size: 40px;padding: 5px;"></i>
+              </div>
+              <div class="orderMain">
+                <div class="orders">AVERAGE PRICE</div>
+                <div class="orderNumber">
+                  15.8
+                  <span
+                    ><i
+                      class="fa fa-arrow-up"
+                      style="color: green; margin-left: 5px"
+                    ></i
+                  ></span>
+                </div>
+              </div>
+              <div class="discount">00%</div>
+            </div>
+            <div class="foot">
+              <p style="color: whitesmoke; width: 50%; margin-left: 5px">
+                Since last month
+              </p>
+              <i
+                class="fa fa-arrow-right"
+                style="margin-right: 15px; color: whitesmoke"
+              ></i>
+            </div>
+          </div>
+
+          <div class="card4" style="background-color: rgb(100, 100, 234)">
+            <div class="cardMain">
+              <div class="cardImage">
+                <i class="fa fa-suitcase" style="font-size: 40px;padding: 5px;"></i>
+              </div>
+              <div class="orderMain">
+                <div class="orders">PRODUCT SOLD</div>
+                <div class="orderNumber">
+                  2436
+                  <span
+                    ><i
+                      class="fa fa-arrow-up"
+                      style="color: green; margin-left: 5px"
+                    ></i
+                  ></span>
+                </div>
+              </div>
+              <div class="discount">+ 84%</div>
+            </div>
+            <div class="foot">
+              <p style="color: whitesmoke; width: 50%; margin-left: 5px">
+                Since last month
+              </p>
+              <i
+                class="fa fa-arrow-right"
+                style="margin-right: 15px; color: whitesmoke"
+              ></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="rightDown">
+          <div class="transaction">
+            <header class="tHead">Latest Transcation</header>
+            <table class="tTable">
+              <tr class="tRow">
+                <td class="t1">(#) Id</td>
+                <td class="t2">Name</td>
+                <td class="t3">Date</td>
+                <td class="t3">Amount</td>
+                <td class="t3">Status</td>
+                <td class="t3"></td>
+              </tr>
+
+              <tr class="tRow">
+                <td class="t1">14256</td>
+                <td class="t2">
+                  <i class="fa fa-user-circle" style="font-size: 20px"></i>
+                  Philip Smead
+                </td>
+                <td class="t3">15/01/2018</td>
+                <td class="t3">$94</td>
+                <td class="del"><button>Delivered</button></td>
+                <td class="editButton"><button>Edit</button></td>
+              </tr>
+
+              <tr class="tRow">
+                <td class="t1">14256</td>
+                <td class="t2">
+                  <i class="fa fa-user-circle" style="font-size: 20px"></i>
+                  Philip Smead
+                </td>
+                <td class="t3">15/01/2018</td>
+                <td class="t3">$94</td>
+                <td class="del"><button>Delivered</button></td>
+                <td class="editButton"><button>Edit</button></td>
+              </tr>
+              <tr class="tRow">
+                <td class="t1">14256</td>
+                <td class="t2">
+                  <i class="fa fa-user-circle" style="font-size: 20px"></i>
+                  Philip Smead
+                </td>
+                <td class="t3">15/01/2018</td>
+                <td class="t3">$94</td>
+                <td class="del"><button>Delivered</button></td>
+                <td class="editButton"><button>Edit</button></td>
+              </tr>
+              <tr class="tRow">
+                <td class="t1">14256</td>
+                <td class="t2">
+                  <i class="fa fa-user-circle" style="font-size: 20px"></i>
+                  Philip Smead
+                </td>
+                <td class="t3">15/01/2018</td>
+                <td class="t3">$94</td>
+                <td class="del"><button>Delivered</button></td>
+                <td class="editButton"><button>Edit</button></td>
+              </tr>
+              <tr class="tRow">
+                <td class="t1">14256</td>
+                <td class="t2">
+                  <i class="fa fa-user-circle" style="font-size: 20px"></i>
+                  Philip Smead
+                </td>
+                <td class="t3">15/01/2018</td>
+                <td class="t3">$94</td>
+                <td class="del"><button>Delivered</button></td>
+                <td class="editButton"><button>Edit</button></td>
+              </tr>
+            </table>
+          </div>
+          <div class="chat">
+            <header class="tHead">Chat</header>
+            <div class="chatbox">
+              <div class="col-1">
+                <div class="msg-row">
+                  <i class="fa fa-user-circle-o" style="font-size: 30px"></i>
+                  <div class="msg-text">
+                    <p>Hello how are you</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-2">
+                <div class="msg-row row-2">
+                 <div class="msg-text">
+                    <p>Hello how are you?What about your next meeting?</p>
+                  </div>
+                  <i class="fa fa-user-circle-o" style="font-size: 30px"></i>
+                </div>
+
+                </div>
+
+              
+                <div class="col-1">
+                  <div class="msg-row">
+                    <i class="fa fa-user-circle-o" style="font-size: 30px"></i>
+                    <div class="msg-text">
+                      <p>Yay everything is fine</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-2">
+                  <div class="msg-row row-2">
+                   <div class="msg-text">
+                      <p>Wow that's great</p>
+                    </div>
+                    <i class="fa fa-user-circle-o" style="font-size: 30px"></i>
+                  </div>
+  
+                  </div>
+              </div>
+
+              <div class="messageBox">
+              <input type="text" class="msgText" style="height: 30px">
+              
+              <button class="sendBtn"  style="height: 34px">Send</button>
+              </div>
+
+
+
+            </div>
+          </div>
+        </div>
+
+        <footer></footer>
+      </div>
+    </div>
+  </body>
+</html>
